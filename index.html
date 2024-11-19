@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            height: 400px;
+            background-color: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的网站</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#services">服务</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <h2>探索无限可能</h2>
+            <p>这里是您的理想之选</p>
+        </div>
+    </div>
+
+    <main class="content">
+        <section id="about">
+            <h2>关于我们</h2>
+            <p>我们是一家致力于为客户提供最优质服务的公司。多年来，我们始终坚持创新和卓越的服务理念。</p>
+        </section>
+
+        <section id="services">
+            <h2>我们的服务</h2>
+            <ul>
+                <li>专业咨询</li>
+                <li>技术支持</li>
+                <li>项目管理</li>
+                <li>解决方案</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <p>电话：123-456-789</p>
+            <p>邮箱：info@example.com</p>
+            <p>地址：某某市某某区某某街道123号</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的网站. 保留所有权利。</p>
+    </footer>
+</body>
+</html> 
